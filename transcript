@@ -1,0 +1,28 @@
+project open /home/jaysoni/Desktop/RISCV-Single_Cycle_Core/simulation/RISCV
+# Loading project RISCV
+vsim work.Single_Cycle_Top_Tb
+# vsim work.Single_Cycle_Top_Tb 
+# Start time: 23:04:29 on May 27,2024
+# Loading work.Single_Cycle_Top_Tb
+# Loading work.Single_Cycle_Top
+# Loading work.PC_Module
+# Loading work.PC_Adder
+# Loading work.Instruction_Memory
+# Loading work.Register_File
+# Loading work.Sign_Extend
+# Loading work.Mux
+# Loading work.ALU
+# Loading work.Control_Unit_Top
+# Loading work.Main_Decoder
+# Loading work.ALU_Decoder
+# Loading work.Data_Memory
+add wave -position insertpoint sim:/Single_Cycle_Top_Tb/Single_Cycle_Top/*
+run -all
+# ** Note: $finish    : /home/jaysoni/Desktop/RISCV-Single_Cycle_Core/Single_Cycle_Top_Tb.v(29)
+#    Time: 600 ps  Iteration: 0  Instance: /Single_Cycle_Top_Tb
+# 1
+# Break in Module Single_Cycle_Top_Tb at /home/jaysoni/Desktop/RISCV-Single_Cycle_Core/Single_Cycle_Top_Tb.v line 29
+# Project file /home/jaysoni/Desktop/RISCV-Single_Cycle_Core/simulation/RISCV.mpf is write protected, data cannot be saved.
+# Unable to save project.
+# End time: 23:14:29 on May 27,2024, Elapsed time: 0:10:00
+# Errors: 0, Warnings: 0
