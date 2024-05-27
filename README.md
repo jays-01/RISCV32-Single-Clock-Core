@@ -1,2 +1,4 @@
-# RISCV32-Single-Clock-Core
-Design files of RISCV32I-ISA 
+# RISCV32I-Core
+##Design files of RISCV32I-ISA 
+
+This project implements a subset of RISCV32I ISA.
